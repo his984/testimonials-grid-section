@@ -18,7 +18,7 @@ body {
 .container {
   width: 144rem;
   height: 90rem;
-  padding: 14rem 16.3rem;
+  padding: 16.3rem 14rem;
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.3);
   background-color: #ecf2f8;
 }
