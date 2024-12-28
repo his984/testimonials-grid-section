@@ -31,6 +31,7 @@ body {
   column-gap: 3rem;
   row-gap: 2.5rem;
 }
+
 /* ===GLOBAL=== */
 /* PROFILE */
 .profile {
@@ -45,11 +46,14 @@ body {
 }
 .profile h2 {
   font-size: 1.3rem;
-  line-height: 1.3rem;
+  line-height: 1.6rem;
 }
 .profile span {
   font-size: 1.1rem;
   line-height: 1.1rem;
+}
+span {
+  text-transform: uppercase;
 }
 p {
   font-size: 2rem;
@@ -76,7 +80,7 @@ blockquote {
   position: relative;
 }
 .item--1 .profile {
-  width: 12.1rem;
+  width: 13rem;
   height: 2.8rem;
 }
 .item--1 svg {
@@ -110,7 +114,7 @@ blockquote {
   background-color: #48556a;
 }
 .item--2 .profile {
-  width: 13.6rem;
+  width: 13rem;
   height: 2.8rem;
 }
 .item--2 .profile h2 {
@@ -136,7 +140,7 @@ blockquote {
   grid-row: span 2;
 }
 .item--3 .profile {
-  width: 12.1rem;
+  width: 13rem;
   height: 2.8rem;
 }
 .item--3 .profile h2,
@@ -158,7 +162,7 @@ blockquote {
   background-color: #fff;
 }
 .item--4 .profile {
-  width: 13.4rem;
+  width: 13rem;
   height: 2.8rem;
 }
 .item--4 .profile h2,
@@ -181,12 +185,12 @@ blockquote {
   grid-column: span 2;
 }
 .item--5 .profile {
-  width: 12.4rem;
+  width: 13rem;
   height: 2.8rem;
 }
 .item--5 .profile h2,
 .item--5 .profile span {
-  color: #fff;
+  color: #ffffffcb;
 }
 .item--5 p {
   width: 47.6rem;
@@ -196,5 +200,5 @@ blockquote {
 .item--5 blockquote {
   width: 47.6rem;
   height: 7.2rem;
-  color: #fff;
+  color: #ffffffcb;
 }
