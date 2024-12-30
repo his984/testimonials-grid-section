@@ -1,0 +1,40 @@
+/* ===RESPONSIVE=== */
+@media (max-width: 375px) {
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 8% 5%;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+  }
+  .item {
+    padding: 2rem;
+  }
+  .item--1,
+  .item--5 {
+    grid-column: 1/-1;
+  }
+  .item--3 {
+    grid-row: span 1;
+  }
+  .item p {
+    width: 100%;
+    height: auto;
+  }
+  .item blockquote {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .item--1 svg {
+    top: 0;
+    left: 60%;
+  }
+}
